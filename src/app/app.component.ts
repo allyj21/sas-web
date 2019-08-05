@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sas-web';
+  title = "Ally and Caitlyn's Semester At Sea!";
 }

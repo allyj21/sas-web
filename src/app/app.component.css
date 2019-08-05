@@ -1,0 +1,31 @@
+
+.header{
+    text-align: center;
+    padding-top: 50px;
+}
+.site-menu{
+    background: #eee;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .85;
+    z-index: 500;
+    transition: all 300ms ease;
+}
+
+.menu {
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.menu-item {
+    display:inline;
+} 
+.menu-link {
+    display:inline-block;
+    padding:10px;
+}

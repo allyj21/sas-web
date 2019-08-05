@@ -1,0 +1,16 @@
+.home-top{
+    background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/17759911_1428277643891447_4391441707395042692_n.jpg?_nc_cat=109&_nc_oc=AQnoWthpWrtNiDk4G0TfUyJBFN2FB5wZRQIF95IxZe25ybczSi_MRpbDAtYYhscz6aU&_nc_ht=scontent-atl3-1.xx&oh=80324158974d5c26333f383e64d38e1a&oe=5DE8BC89");
+    padding-bottom: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.heading-main{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Georgia;
+    color: white;
+    font-size: 100px;
+    
+}

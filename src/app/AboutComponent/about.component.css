@@ -1,14 +1,14 @@
 .heading-main{
     text-align: left;
     color: white;
-    font-size: 100px;
-    padding-top:100px;
+    font-size: 125px;
+    padding-top:75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .heading-name{
     text-align: center;
-    font-size: 50;
+    font-size: 60;
     padding: 50px;
 }
 
@@ -17,7 +17,7 @@
     padding-bottom: 600px;
     background-repeat: no-repeat;
     background-origin: padding-box;
-    background-position: left;
+    background-position: center;
     background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/39572587_722144278126615_7683220975239823360_n.jpg?_nc_cat=105&_nc_oc=AQlCVO3ZWmX2hM7Gi7ZdDah8JQM_BSG3rrzjvOj_FcGqxxw_sU3bzXq6M2rQwF5XfIk&_nc_ht=scontent-atl3-1.xx&oh=0ee3d49ff15a29e9089fde6c652d8981&oe=5DEB5168");
 
 

@@ -96,6 +96,20 @@
     
 }
 
+.title-countries{
+    font-family: georgia;
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .countdown-item {
     color: #ADD8E6;
     font-family: Georgia;
@@ -104,19 +118,45 @@
     padding: 10px;
 } 
 
-.col-3{
+
+.col-4{
     text-align:center;
     padding: 50px;
-    
+    color: white;
     font-size: 30px;
     font-family: georgia;
-    border:1px solid #ccc;
-    border-width:1px 1px;
+    
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 
 }
+
+.hawaii{
+    background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.japan{
+    background-image:url("https://media.gettyimages.com/photos/shibuya-shopping-district-tokyo-japan-picture-id505797368");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.china{
+    background-image:url("https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+
+}
+
+
 
 .space{
     padding: 20px;

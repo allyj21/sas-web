@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
+import { GoogleChartsModule } from 'angular-google-charts';
+
 
 @Component({
   selector: 'app-home',
@@ -29,20 +30,20 @@ export class HomeComponent implements OnInit {
     var mm = today.getMonth();
     var yyyy = today.getFullYear();
     var diff = this.departDate.getTime() - today.getTime();
-    console.log(dd + " " + mm + " " + yyyy)
-    var diffSeconds = (diff / 1000 % 60).toPrecision(2);
-		var diffMinutes = (diff / (60 * 1000) % 60).toPrecision(2);
-		var diffHours = (diff / (60 * 60 * 1000) % 24).toPrecision(2);
-    var diffDays = (diff / (24 * 60 * 60 * 1000)).toPrecision(3);
+
+    var diffSeconds = Math.floor(diff / 1000 % 60);
+		var diffMinutes = Math.floor(diff / (60 * 1000) % 60);
+		var diffHours = Math.floor((diff / (60 * 60 * 1000) % 24));
+    var diffDays = Math.floor((diff / (24 * 60 * 60 * 1000)));
     
     this.secondsLeft = diffSeconds.toString();
     this.minutesLeft = diffMinutes.toString();
     this.hoursLeft = diffHours.toString();
     this.daysLeft = diffDays.toString();
-
     
-    
+  }
 
+  public initMap(){
     
   }
 

@@ -25,19 +25,48 @@
     padding: 0 0 0 50;
 }
 
-.countdown {
+.countdown-title{
+    color: #ADD8E6;
+    font-family: Georgia;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+
     
+}
+
+.countdown {
+    width: 100%;
+    margin: auto;
     border:1px solid #ccc;
     border-width:1px 0;
+    font-family: Georgia;
     list-style:none;
-    margin:0;
-    padding:70px;
+    padding: 50px;  
     text-align:center;
     
 }
 
 .countdown-item {
+    color: #ADD8E6;
+    font-family: Georgia;
     display:inline;
     font-size: 40px;
     padding: 10px;
 } 
+
+#map{
+    background-image: url("https://miro.medium.com/max/1400/1*DIgURDRDmn3EXR2SIp3jPQ.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0px 500px;
+}
+
+#area1{
+    padding: 0px 50px 0px 50px;
+}
+#area1:hover{
+    opacity:0.2;
+}

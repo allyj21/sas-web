@@ -29,5 +29,8 @@
 } 
 .menu-link {
     display:inline-block;
+    font-family: Georgia;
+    text-transform: uppercase;
+    color: black;
     padding:10px;
 }

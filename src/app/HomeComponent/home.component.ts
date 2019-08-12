@@ -17,10 +17,12 @@ export class HomeComponent implements OnInit {
   public daysLeft: string;
   public title: string;
   public summary_sas: string;
+  public countries: String[];
 
   constructor() { 
     this.title = "Semester At Sea";
     this.summary_sas = "On January 3rd 2019 we will be embarking on a journey around the world visiting 12 different countries on 4 differenct continents. Join us through our blogs and photos."
+    this.countries = ["hawaii", "japan", "china", "vietnam", "malaysia", "india", "mauritius", "southafrica", "ghana", "morocco", "netherlands", "germany"];
   }
 
   
@@ -48,9 +50,11 @@ export class HomeComponent implements OnInit {
     
   }
 
-  public initMap(){
-    
+  public countryClicked(country: string){
+    console.log("woooo " + country);
   }
+
+  
 
   
 

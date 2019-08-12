@@ -32,24 +32,11 @@
           Where are we going?
         </div>
 
-        <div class="col-4 hawaii">
-            hawaii
+        <div class="col-4 image {{country}}" *ngFor="let country of countries" onclick="countryClicked(country)">
+          {{ country }}
         </div>
-        <div class="col-4 japan">
-            japan
-        </div>
-        <div class="col-4 china">
-            china
-        </div>
-        <div class="col-4 vietnam">
-            vietnam
-        </div>
-        <div class="col-4 malaysia">
-            malaysia
-        </div>
-        <div class="col-4 india">
-            india
-        </div>
+
+        
         
          
         

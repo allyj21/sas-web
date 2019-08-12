@@ -13,7 +13,7 @@
 }
 
 .about-top{
-    overflow: scroll;
+    margin: auto;
     padding-bottom: 600px;
     background-repeat: no-repeat;
     background-origin: padding-box;

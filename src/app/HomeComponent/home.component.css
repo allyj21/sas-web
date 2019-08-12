@@ -133,30 +133,64 @@
 
 }
 
-.hawaii{
-    background-image:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+.image{
     background-position: center;
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
+.hawaii{
+    background-image:url("https://live.staticflickr.com/4/8332542_57fc4f34fe_b.jpg");
+    
+}
+
 .japan{
-    background-image:url("https://media.gettyimages.com/photos/shibuya-shopping-district-tokyo-japan-picture-id505797368");
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
+    background-image:url("https://live.staticflickr.com/8265/28350408591_33df20c0d7_b.jpg");
+    
 
 }
 
 .china{
-    background-image:url("https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-    background-position: center;
-    background-size: 90%;
-    background-repeat: no-repeat;
+    background-image:url("https://live.staticflickr.com/2008/2213475574_356a684dd7_b.jpg");
+    
 
 }
 
+.vietnam{
+    background-image: url("https://live.staticflickr.com/4833/45888883352_ff683f5298_b.jpg")
+}
 
+.malaysia{
+    background-image: url("https://live.staticflickr.com/5092/5516075602_999206f91d_b.jpg");
+}
+
+.india{
+    background-image: url("https://live.staticflickr.com/2097/2214731465_76c02b8074_b.jpg")
+}
+
+.mauritius{
+    background-image: url("https://live.staticflickr.com/9/76566322_533eaeac3c_b.jpg");
+}
+
+.southafrica{
+    background-image: url("https://live.staticflickr.com/5183/5588100982_31167085e9_b.jpg");
+}
+
+.ghana{
+    background-image: url("https://live.staticflickr.com/8057/8203371872_8e2d7fbd9d_b.jpg");
+}
+
+.morocco{
+    background-image: url("https://live.staticflickr.com/5450/14108980603_21547eb1fc_b.jpg");
+}
+
+.netherlands{
+    background-image: url("https://live.staticflickr.com/7799/17347567964_b5c8e994de_b.jpg");
+}
+
+.germany{
+    background-image: url("https://farm3.staticflickr.com/2667/3724279525_1acf72fe00_b.jpg");
+}
 
 .space{
     padding: 20px;

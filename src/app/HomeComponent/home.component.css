@@ -3,6 +3,7 @@
     padding-bottom: 100px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 50px;
 
 }
 
@@ -21,18 +22,64 @@
     color: white;
 
 }
+
+.title-sas{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-family: cambria;
+    text-transform: uppercase;
+}
+
+#summary-sas{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.col-6{
+    margin-top: 50px;
+}
+
+.picture-summary-sas{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/42211171_741351582872551_6472723947971411968_n.jpg?_nc_cat=103&_nc_oc=AQlGoQWZ6jThoPM1TlL0m_Wtna_46KahAaqqYxzM2lJub7NNcsrnX0fC08PZ1iz58pA&_nc_ht=scontent-lga3-1.xx&oh=9dc34219a94d8638e2ce27995f14e752&oe=5DDCD942");
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+#picture-sas{
+    background-image: url(https://res-4.cloudinary.com/abroad101/image/upload/c_limit,h_800,w_800/v1539985204/Program_411_ProfilePhoto_445_11e1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 200px 0 200px;
+}
+
 .container{
     padding: 0 0 0 50;
 }
 
 .countdown-title{
-    color: #ADD8E6;
+    color:black;
     font-family: Georgia;
     width: 70%;
     margin: auto;
     text-align: center;
-    padding: 30px;
+    padding: 50px 0px 50px 5px;
     text-transform: uppercase;
+    font-size: 41px;
 
     
 }
@@ -57,16 +104,23 @@
     padding: 10px;
 } 
 
-#map{
-    background-image: url("https://miro.medium.com/max/1400/1*DIgURDRDmn3EXR2SIp3jPQ.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 200px 0px 500px;
+.col-3{
+    text-align:center;
+    padding: 50px;
+    
+    font-size: 30px;
+    font-family: georgia;
+    border:1px solid #ccc;
+    border-width:1px 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
 }
 
-#area1{
-    padding: 0px 50px 0px 50px;
+.space{
+    padding: 20px;
 }
-#area1:hover{
-    opacity:0.2;
-}
+
+
+

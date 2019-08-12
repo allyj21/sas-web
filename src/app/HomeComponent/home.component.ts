@@ -15,8 +15,13 @@ export class HomeComponent implements OnInit {
   public minutesLeft: string;
   public hoursLeft: string;
   public daysLeft: string;
+  public title: string;
+  public summary_sas: string;
 
-  constructor() { }
+  constructor() { 
+    this.title = "Semester At Sea";
+    this.summary_sas = "On January 3rd 2019 we will be embarking on a journey around the world visiting 12 different countries on 4 differenct continents. Join us through our blogs and photos."
+  }
 
   
 

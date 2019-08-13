@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = "Ally and Caitlyn's Semester At Sea!";
+
+
+
 }
+
+

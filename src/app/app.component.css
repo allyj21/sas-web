@@ -43,6 +43,12 @@
 
 }
 
+.copyright{
+    text-align:"center";
+    margin:auto;
+    width:100%;
+}
+
 .btn.active.focus, .btn.active:focus,
 .btn.focus, .btn:active.focus, 
 .btn:active:focus, .btn:focus {

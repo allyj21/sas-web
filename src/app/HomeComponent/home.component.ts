@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GoogleChartsModule } from 'angular-google-charts';
-
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-home',
@@ -19,10 +18,15 @@ export class HomeComponent implements OnInit {
   public summary_sas: string;
   public countries: String[];
 
-  constructor() { 
+  constructor(private router: Router) { 
     this.title = "Semester At Sea";
     this.summary_sas = "On January 3rd 2019 we will be embarking on a journey around the world visiting 12 different countries on 4 differenct continents. Join us through our blogs and photos."
     this.countries = ["hawaii", "japan", "china", "vietnam", "malaysia", "india", "mauritius", "southafrica", "ghana", "morocco", "netherlands", "germany"];
+  }
+
+  countryClicked(country: string){
+    console.log("woooo " + country);
+    this.router.navigateByUrl("/home/" + country);
   }
 
   
@@ -50,9 +54,7 @@ export class HomeComponent implements OnInit {
     
   }
 
-  public countryClicked(country: string){
-    console.log("woooo " + country);
-  }
+  
 
   
 

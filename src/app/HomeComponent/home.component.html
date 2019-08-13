@@ -32,7 +32,8 @@
           Where are we going?
         </div>
 
-        <div class="col-4 image {{country}}" *ngFor="let country of countries" onclick="countryClicked(country)">
+
+        <div class="col-4 image {{country}}" id="countryClicked" *ngFor="let country of countries" (click)="countryClicked(country)">
           {{ country }}
         </div>
 

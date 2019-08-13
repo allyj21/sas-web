@@ -22,7 +22,12 @@ const routes: Routes = [
       path: '**',
       redirectTo: '/home',
       pathMatch: 'full'
-  }
+  },
+  {
+    path: 'home/hawaii',
+    redirectTo: '/about',
+    pathMatch: 'full'
+}
 ];
 
 @NgModule({

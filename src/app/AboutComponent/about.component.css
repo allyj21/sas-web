@@ -3,23 +3,62 @@
     color: white;
     font-size: 125px;
     padding-top:75px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
 }
 
 .heading-name{
     text-align: center;
     font-size: 60;
-    padding: 50px;
+    padding: 20px;
+    font-family: georgia;
+    margin:auto;
+}
+
+.about-ally{
+    text-align: center;
+    font-family: georgia;
+    padding: 20px;
+    margin:auto;
 }
 
 .about-top{
     margin: auto;
     padding-bottom: 600px;
     background-repeat: no-repeat;
-    background-origin: padding-box;
     background-position: center;
     background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/39572587_722144278126615_7683220975239823360_n.jpg?_nc_cat=105&_nc_oc=AQlCVO3ZWmX2hM7Gi7ZdDah8JQM_BSG3rrzjvOj_FcGqxxw_sU3bzXq6M2rQwF5XfIk&_nc_ht=scontent-atl3-1.xx&oh=0ee3d49ff15a29e9089fde6c652d8981&oe=5DEB5168");
 
 
+
+}
+
+.about-body{
+    margin-top: 80px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+
+.picture-profile{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+
+.picture-caitlyn{
+    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/53211092_839312286409813_5724003988844576768_n.jpg?_nc_cat=110&_nc_oc=AQmamao_rfVOO3B3tb8VbNWqCLpinGFCobMFojGd_iJzoz6eAry27s4xui-q_ayaNEM&_nc_ht=scontent-lga3-1.xx&oh=91d6b3b397ff1ad688b7971ff698e4bd&oe=5DCB13AB");
+    background-size: 150%;
+
+}
+
+.picture-ally{
+    background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/33828785_1682273388557904_4935734785445199872_n.jpg?_nc_cat=102&_nc_oc=AQmiCSVF1U6QRfZsZHEov0wi_8XE8t-dlViNXMdLJa7zY4itIJ2YanJMQIUfB1Q3QC8&_nc_ht=scontent-lga3-1.xx&oh=340d1f04be4d6b2eb174c0c77c7454a4&oe=5DD49722");
+    background-size: 100%;
 
 }

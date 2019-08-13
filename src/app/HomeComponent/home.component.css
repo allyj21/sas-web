@@ -1,27 +1,4 @@
-.home-top{
-    background-image: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/17759911_1428277643891447_4391441707395042692_n.jpg?_nc_cat=109&_nc_oc=AQnoWthpWrtNiDk4G0TfUyJBFN2FB5wZRQIF95IxZe25ybczSi_MRpbDAtYYhscz6aU&_nc_ht=scontent-atl3-1.xx&oh=80324158974d5c26333f383e64d38e1a&oe=5DE8BC89");
-    padding-bottom: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 50px;
 
-}
-
-.heading-main{
-    text-align: center;
-    padding-top: 75px;
-    font-family: Georgia;
-    color: white;
-    font-size: 87px;
-    
-}
-
-.heading-main-sub{
-    text-align: center;
-    font-family: Georgia;
-    color: white;
-
-}
 
 .title-sas{
     border:1px solid #ccc;
@@ -44,6 +21,7 @@
     margin-top: 50px;
 }
 
+
 .picture-summary-sas{
     width: 200px;
     height: 200px;
@@ -54,17 +32,21 @@
     background-position-x: 50%;
     background-position-y: 30%;
     background-size: 100%;
-
     background-repeat: no-repeat;
     margin: auto;
 }
 
 
 #picture-sas{
-    background-image: url(https://res-4.cloudinary.com/abroad101/image/upload/c_limit,h_800,w_800/v1539985204/Program_411_ProfilePhoto_445_11e1.jpg);
-    background-position: top;
+    background-image: url("https://live.staticflickr.com/5042/5260713159_91cc2d25b6_b.jpg");
+    filter: opacity(80%);
+    background-position: top ;
     background-repeat: no-repeat;
-    padding: 200px 0 200px;
+    object-fit: scale-down;
+    padding: 200px 0px 200px 0px;
+    background-position-x: 30%;
+    background-position-y: 30%;
+    background-size: 150%;
 }
 
 .container{
@@ -148,7 +130,7 @@ a:hover{
 }
 
 .hawaii{
-    background-image:url("https://live.staticflickr.com/4/8332542_57fc4f34fe_b.jpg");
+    background-image:url("https://cdn12.picryl.com/photo/2016/12/31/black-sand-beach-hawaii-travel-vacation-3a6ffc-1024.jpg");
     
 }
 
@@ -165,11 +147,11 @@ a:hover{
 }
 
 .vietnam{
-    background-image: url("https://live.staticflickr.com/4833/45888883352_ff683f5298_b.jpg")
+    background-image: url("https://live.staticflickr.com/7204/6989503977_b310e12c88_b.jpg")
 }
 
 .malaysia{
-    background-image: url("https://live.staticflickr.com/5092/5516075602_999206f91d_b.jpg");
+    background-image: url("https://live.staticflickr.com/900/27940387307_5510595550_b.jpg");
 }
 
 .india{
@@ -177,7 +159,7 @@ a:hover{
 }
 
 .mauritius{
-    background-image: url("https://live.staticflickr.com/9/76566322_533eaeac3c_b.jpg");
+    background-image: url("https://live.staticflickr.com/4046/4424341434_06379f207a_b.jpg");
 }
 
 .southafrica{

@@ -34,7 +34,7 @@
 
 
         <div class="col-4 image {{country}}" id="countryClicked" *ngFor="let country of countries" (click)="countryClicked(country)">
-          {{ country }}
+          <a [routerLink] = "['/home', country]" > {{ country }} </a>
         </div>
 
         

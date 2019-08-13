@@ -133,6 +133,14 @@
 
 }
 
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
 .image{
     background-position: center;
     background-size: 90%;

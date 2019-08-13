@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './HomeComponent/home.component';
 import { AboutComponent } from './AboutComponent/about.component';
 import { GoogleChartsModule } from 'angular-google-charts';
+import { CountryComponent } from './CountryComponent/country.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    CountryComponent,
   ],
   imports: [
     BrowserModule,

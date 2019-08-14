@@ -45,8 +45,12 @@
 
 .copyright{
     text-align:"center";
-    margin:auto;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
     width:100%;
+    background:#999;
 }
 
 .btn.active.focus, .btn.active:focus,

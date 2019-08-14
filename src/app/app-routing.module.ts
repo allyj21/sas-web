@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './HomeComponent/home.component';
 import { AboutComponent } from './AboutComponent/about.component'
 import { CountryComponent } from './CountryComponent/country.component';
+import { MapComponent } from './MapComponent/map-component.component';
+
 
 
 const routes: Routes = [
@@ -13,6 +15,10 @@ const routes: Routes = [
   {
       path: 'about',
       component: AboutComponent
+  },
+  {
+      path: 'map',
+      component: MapComponent
   },
   {
       path: 'home/hawaii',

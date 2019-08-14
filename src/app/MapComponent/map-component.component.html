@@ -1,3 +1,20 @@
+
+        <script>
+                $("path, circle").hover(function(e) {
+                 $('#info-box').css('display','block');
+                 $('#info-box').html($(this).data('name'));
+               });
+               $("path, circle").mouseleave(function(e) {
+                 $('#info-box').css('display','none');
+               });
+               $(document).mousemove(function(e) {
+                 $('#info-box').css('top',e.pageY-$('#info-box').height()-30);
+                 $('#info-box').css('left',e.pageX-($('#info-box').width())/2);
+               }).mouseover();
+        </script>
+    
+        
+
 <div class="container">
 
     <div class="title-map">
@@ -40,6 +57,7 @@ THE SOFTWARE.
 <svg
 
 
+   ng-mouseover="countryHover()"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -57,7 +75,8 @@ THE SOFTWARE.
    id="svg2"
    margin="auto"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="world.svg">
+   sodipodi:docname="world.svg"> 
+   
   
   <path
      inkscape:connector-curvature="0"

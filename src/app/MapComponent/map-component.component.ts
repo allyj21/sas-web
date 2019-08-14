@@ -12,4 +12,8 @@ export class MapComponent implements OnInit {
   ngOnInit() {
   }
 
+  public countryHover(){
+    console.log("hi");
+  }
+
 }

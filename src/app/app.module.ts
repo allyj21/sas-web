@@ -9,6 +9,7 @@ import { GoogleChartsModule } from 'angular-google-charts';
 import { CountryComponent } from './CountryComponent/country.component';
 import { MapComponent } from './MapComponent/map-component.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

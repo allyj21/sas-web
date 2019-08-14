@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Title }     from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-root',
@@ -6,8 +8,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = "Ally and Caitlyn's Semester At Sea!";
 
+
+  private title = "Ally and Caitlyn";
+
+  public constructor(private titleService: Title ) { }
+
+  ngoninit(){
+    this.setTitle(this.title);
+  }
+
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
+  }
+
+  
 
 
 }

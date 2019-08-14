@@ -21,6 +21,10 @@ const routes: Routes = [
       component: MapComponent
   },
   {
+    path: 'world',
+    redirectTo: "./world.svg"
+  },
+  {
       path: 'home/hawaii',
       component: CountryComponent
   },

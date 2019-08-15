@@ -10,9 +10,10 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
-  public countryHover(){
+  public displayName(name: string){
     console.log("hi");
   }
 
